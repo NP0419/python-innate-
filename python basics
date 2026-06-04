@@ -1,0 +1,297 @@
+1. Accept a user's name and print a welcome message
+
+name = input("Enter your name: ")
+print("Welcome", name)
+
+Output:
+
+Enter your name: Ravi
+Welcome Ravi
+
+2. Accept two numbers and display their sum
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum =", a + b)
+
+Output:
+
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+3. Accept a student's name and marks and display them
+
+name = input("Enter student name: ")
+marks = int(input("Enter marks: "))
+print("Student Name:", name)
+print("Marks:", marks)
+
+Output:
+
+Enter student name: Ravi
+Enter marks: 85
+Student Name: Ravi
+Marks: 85
+
+
+4. Accept a city name and print it in uppercase
+
+city = input("Enter city name: ")
+print("Uppercase:", city.upper())
+
+Output:
+
+Enter city name: Chennai
+Uppercase: CHENNAI
+
+5. Take input for length and breadth and calculate area
+
+length = int(input("Enter length: "))
+breadth = int(input("Enter breadth: "))
+area = length * breadth
+print("Area =", area)
+
+Output:
+
+Enter length: 10
+Enter breadth: 5
+Area = 50
+
+ 6. Assign multiple values to multiple variables
+
+a, b, c = 10, 20, 30
+
+print(a)
+print(b)
+print(c)
+
+Output:
+
+10
+20
+30
+
+ 7. Assign the same value to three variables
+
+a = b = c = 100
+
+print(a)
+print(b)
+print(c)
+
+Output:
+
+100
+100
+100
+
+8. Exchange values of two variables
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+a, b = b, a
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+
+Output:
+
+Enter first number: 10
+Enter second number: 20
+After swapping:
+a = 20
+b = 10
+
+9. Calculate total marks using variables
+
+m1 = int(input("Enter mark 1: "))
+m2 = int(input("Enter mark 2: "))
+m3 = int(input("Enter mark 3: "))
+total = m1 + m2 + m3
+print("Total Marks =", total)
+
+Output:
+
+Enter mark 1: 80
+Enter mark 2: 75
+Enter mark 3: 90
+Total Marks = 245
+
+10. Store and display employee information
+
+name = input("Enter employee name: ")
+age = int(input("Enter age: "))
+salary = int(input("Enter salary: "))
+print("Name:", name)
+print("Age:", age)
+print("Salary:", salary)
+
+Output:
+
+Enter employee name: Ravi
+Enter age: 25
+Enter salary: 30000
+Name: Ravi
+Age: 25
+Salary: 30000
+
+11. Create a string and print it
+
+s = "Hello Python"
+print(s)
+
+Output:
+
+Hello Python
+
+12. Print the first character of a string
+
+s = input("Enter a string: ")
+print("First character:", s[0])
+
+Output:
+
+Enter a string: Python
+First character: P
+
+13. Print the last character of a string
+
+s = input("Enter a string: ")
+print("Last character:", s[-1])
+
+Output:
+
+Enter a string: Python
+Last character: n
+
+14. Find the length of a string
+
+s = input("Enter a string: ")
+print("Length =", len(s))
+
+Output:
+
+Enter a string: Python
+Length = 6
+
+15. Convert a string to uppercase
+
+s = input("Enter a string: ")
+print(s.upper())
+
+Output:
+
+Enter a string: python
+PYTHON
+
+16. Convert a string to lowercase
+
+s = input("Enter a string: ")
+print(s.lower())
+
+Output:
+
+Enter a string: PYTHON
+python
+
+17. Reverse a string
+
+s = input("Enter a string: ")
+print("Reverse:", s[::-1])
+
+Output:
+
+Enter a string: Python
+Reverse: nohtyP
+
+18. Check whether a character exists in a string
+
+s = input("Enter a string: ")
+ch = input("Enter a character: ")
+if ch in s:
+    print("Character found")
+else:
+    print("Character not found")
+
+Output:
+
+Enter a string: Python
+Enter a character: t
+Character found
+
+19. Count vowels in a string
+
+s = input("Enter a string: ")
+
+count = 0
+
+for i in s:
+    if i in "aeiouAEIOU":
+        count += 1
+
+print("Vowels =", count)
+
+Output:
+
+Enter a string: Education
+Vowels = 5
+
+20. Add two integers
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Sum =", a + b)
+
+
+Output:
+
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+21.Multiply two floating-point numbers
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print("Product =", a * b)
+
+Output:
+
+Enter first number: 2.5
+Enter second number: 4
+Product = 10.0
+
+22.Calculate simple interest.
+
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate: "))
+t = float(input("Enter Time: "))
+si = (p * r * t) / 100
+print("Simple Interest =", si)
+
+Output:
+Enter Principal: 10000
+Enter Rate: 5
+Enter Time: 2
+Simple Interest = 1000.0
+
+23.Find the square and cube of a number.
+
+n = int(input("Enter a number: "))
+print("Square =", n ** 2)
+print("Cube =", n ** 3)
+
+Output:
+Enter a number: 5
+Square = 25
+Cube = 125
+
+24.Calculate the average of three numbers.
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+avg = (a + b + c) / 3
+print("Average =", avg)
